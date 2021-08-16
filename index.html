@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Picker</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="kotak">
+            <h1 class="interFont margBot">Pick your</h1>
+            <h1 class="rColor textBorder interFont margBot">COLOR</h1>
+            <button type="button" name="rButton" class="interFont butt">Random Color</button>
+        </div>
+        
+        <div class="kotak-2">
+            
+                <div class="red kotak-kecil margBot"></div>
+                <p class="r-value kotak-kecil-ex margBot interFont">127</p>
+                <input type="range" name="red-slide" min="0" max="255" value="127" id="" class="margBot-ex slider">
+
+                <div class="green kotak-kecil margBot"></div>
+                <p class="g-value kotak-kecil-ex margBot interFont">127</p>
+                <input type="range" name="green-slide" min="0" max="255" value="127" id="" class="margBot-ex slider">
+
+                <div class="blue kotak-kecil margBot"></div>
+                <p class="b-value kotak-kecil-ex margBot interFont">127</p>
+                <input type="range" name="blue-slide" min="0" max="255" value="127" id="" class="margBot-ex slider">
+            
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
